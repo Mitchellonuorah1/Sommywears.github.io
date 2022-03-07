@@ -1,0 +1,418 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav,
+header,
+footer {
+    display: block;
+}
+
+nav {
+    background: linear-gradient(blue , white);
+    height: 90px;
+    width: 100%;
+}
+
+label.name {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.major {
+    background: linear-gradient(white , pink);
+    padding: 7px;
+    margin-bottom: 0;
+}
+
+h1.two {
+    padding: 10px 10px 0px 30px;
+    margin-bottom: 0;
+    font-size: 90px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 0.3;
+}
+
+h1.som {
+    padding: 0px 10px 0px 70px;
+    margin-top: 0;
+    font-size: 90px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h3.non {
+    float: right;
+    font-style: oblique;
+}
+
+h4 {
+    font-style: oblique;
+    line-height: 0%;
+}
+
+h2 {
+   font-style: italic;
+   font-weight: 200;
+   text-align: center; 
+}
+
+header h1 {
+    font-weight: 200;
+    font-size: 40px;
+    padding-left: 20px;
+    font-style: italic;
+}
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+} 
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.col-5 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+div.col-6 {
+    width: 50%;
+    margin: 0;
+}
+
+div.image1 img {
+    width: 200px;
+    height: 250px;
+}
+
+div.image1 {
+    height: 300px;
+    padding: 5px;
+}
+div.image2 img {
+    width: 200px;
+    height: 250px;
+}
+
+div.image2 {
+    height: 300px;
+    padding: 5px;
+}
+
+div.image3 img {
+    width: 200px;
+    height: 250px;
+}
+
+div.image3 {
+    height: 300px;
+    padding: 10px;
+}
+
+div.image4 img {
+    width: 200px;
+    height: 250px;
+}
+
+div.image4 {
+    height: 300px;
+    padding: 5px;
+}
+button {
+    width: fit-content;
+    height: 50px;
+    background-color: rgb(34, 145, 48);
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    transition: 0.7s;
+    transition: transform .4s;
+}
+
+button:hover {
+    background: linear-gradient(white , rgb(34, 145, 48));
+    transform: scale(1.1);
+}
+button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(119, 161, 206);
+}
+
+
+p.footer {
+    line-height: 1.7;
+    font-family: cursive;
+}
+
+footer.end {
+    margin: 0;
+    padding: 12px;
+    height: fit-content;
+    width: 100%;
+    display: block;
+    background: linear-gradient(white , rgb(104, 104, 235));
+}
+
+.col-1 {width: 8.33%};
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media (max-width:950px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    label.name {
+        padding: 10px;
+    }
+
+    .checkbtn {
+        display: block;
+        float: right;
+        font-size: 40px;
+        padding: 9px;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(blue , white);
+        top: 80px;
+        left: -105%;
+        text-align: center;
+        transition: all .7s;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+    
+    nav.wwh ul {
+        width: 100%;
+        display: inline-block;
+        margin: 1px black;
+        padding: 3px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    a:hover {
+        background: none;
+        color: #0082e6;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (max-width:850px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    label.name {
+        padding: 10px;
+    }
+    .checkbtn {
+        display: block;
+        float: right;
+        font-size: 40px;
+        padding: 9px;
+        transition: transform .4s;
+    }
+
+    .checkbtn:hover {
+        transform: scale(1.3)
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(blue , white);
+        top: 80px;
+        left: -105%;
+        text-align: center;
+        transition: all .7s;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    nav.wwh ul {
+        width: 100%;
+        display: inline-block;
+        margin: 1px black;
+        padding: 3px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    a:hover {
+        background: none;
+        color: #0082e6;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    div.image1 img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    div.image1 {
+        height: 300px;
+        padding: 5px;
+    }
+    div.image2 img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    div.image2 {
+        height: 300px;
+        padding: 5px;
+    }
+    
+    div.image3 img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    div.image3 {
+        height: 300px;
+        padding: 10px;
+    }
+    
+    div.image4 img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    div.image4 {
+        height: 300px;
+        padding: 5px;
+    }
+
+    span {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    button {
+        width: fit-content;
+        height: 50px;
+        background-color: rgb(34, 145, 48);
+        border-radius: 25px;
+        padding: 10px;
+        border: none;
+        transition: 0.7s;
+        transition: transform .4s;
+    }
+
+    button:hover {
+        background: radial-gradient(white , rgb(34, 145, 48));
+        transform: scale(1.1)
+    }
+    button a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: cursive;
+        color: rgb(119, 161, 206);
+    }
+
+    p.footer {
+        line-height: 1.7;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+
+
+
+
+
+
+}
