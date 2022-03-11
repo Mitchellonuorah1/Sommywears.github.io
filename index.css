@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 nav,
@@ -281,6 +282,17 @@ footer.end {
         padding: 0;
     }
 
+    nav.wwh {
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+    }
+
+    .hideq{
+        transform: translate(-1500px);
+    }
+
     label.name {
         padding: 10px;
     }
@@ -309,6 +321,12 @@ footer.end {
 
     #check:checked ~ ul {
         left: 0;
+    }
+
+    nav.wwh{
+        position: fixed !important;
+        top: 0;
+        width: 100%;
     }
 
     nav.wwh ul {
