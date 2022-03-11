@@ -9,6 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 
+
 nav,
 header,
 footer {
@@ -290,6 +291,10 @@ footer.end {
         top: 0;
         width: 100%;
 
+    }
+
+    .major{
+        margin-top: 50px;
     }
 
     .hideq{
