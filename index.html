@@ -196,7 +196,12 @@
                 })
             })
             document.querySelector('#check').addEventListener('click',function(){
-                hide.classList.toggle('hideq')
+               if ( hide.classList.contain('hideq')) {
+                hide.classList.remove('hideq')
+               } else {
+                hide.classList.add('hideq')
+               }
+               
                 hide.style.left = 0
             })
         </script>
