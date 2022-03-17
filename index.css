@@ -9,6 +9,10 @@ body {
     scroll-behavior: smooth;
 }
 
+* {
+    color: #fff;
+    font-family: 'Poppins';
+}
 
 nav,
 header,
@@ -17,7 +21,7 @@ footer {
 }
 
 nav {
-    background: linear-gradient(blue , white);
+    background: linear-gradient(purple , black);
     height: 90px;
     width: 100%;
 }
@@ -33,12 +37,15 @@ label.name {
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 div.major {
-    background: linear-gradient(white , pink);
+    background-color: black;
     padding: 7px;
     margin-bottom: 0;
+    width: 80%;
+    margin: auto;
 }
 
 h1.two {
@@ -126,6 +133,10 @@ div.col-5 img {
     height: 250px;
     border-radius: 50%;
 }
+img {
+    border-radius: 10px;
+    margin: auto;
+}
 
 div.col-6 {
     width: 50%;
@@ -204,7 +215,7 @@ footer.end {
     height: fit-content;
     width: 100%;
     display: block;
-    background: linear-gradient(white , rgb(104, 104, 235));
+    background: linear-gradient(purple , black);
 }
 
 .col-1 {width: 8.33%};
@@ -241,7 +252,7 @@ footer.end {
         position: absolute;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(blue , white);
+        background: linear-gradient(black , purple);
         top: 80px;
         left: -105%;
         text-align: center;
@@ -293,8 +304,10 @@ footer.end {
 
     }
 
-    .major{
+    div.major{
         margin-top: 50px;
+        width: 100%;
+        padding: 2px;
     }
 
     .hideq{
@@ -320,7 +333,7 @@ footer.end {
         position: absolute;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(blue , white);
+        background: linear-gradient(black , purple);
         top: 80px;
         left: -105%;
         text-align: center;
@@ -372,6 +385,7 @@ footer.end {
     div.image1 {
         height: 300px;
         padding: 5px;
+
     }
     div.image2 img {
         width: 100%;
@@ -402,6 +416,10 @@ footer.end {
         height: 300px;
         padding: 5px;
     }
+    img {
+        border-radius: 30px;
+    }
+
 
     span {
         font-size: 30px;
@@ -420,7 +438,7 @@ footer.end {
     }
 
     button:hover {
-        background: radial-gradient(white , rgb(34, 145, 48));
+        background: radial-gradient(purple , black);
         transform: scale(1.1)
     }
     button a {
@@ -431,7 +449,7 @@ footer.end {
     }
 
     p.footer {
-        line-height: 1.7;
+        line-height: 1.5;
         font-family: 'Poppins', sans-serif;
     }
     
